@@ -4,7 +4,7 @@ a{
 	text-decoration: none;
 }
 .margin-left{
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .inline-element{
 	display: inline-block;
@@ -14,10 +14,11 @@ a{
 
 /*Heder Styles Begin*/
 header{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .logo{
-	width: 100px;}
+	width: 100px;
+	}
 .logo img{
 	width: 100%;
 }
@@ -41,42 +42,44 @@ header{
 }
 /*Heder Styles End*/
 
-/*Banner Begin*/
-.banner{
-	margin-top: 5px;
-	margin-bottom: 20px;
+/*News Begin*/
+.mouth{
+	width: 60%;
 }
-/*Banner End*/
-
-/*Social Begin*/
-.social{
-	height: 20px;
-	/*background-color: red;	*/
-}
-.social-ul{
-	padding: 0px;
+.mouth h1{
 	margin: 0px;
-}
-.social-ul li{
-	list-style: none;
-	display: inline-block;
-}
-.divider{
-	width: 2px;
-	height: 20px;
+	padding: 0px;
 	background-color: blue;
-	margin-left: 5px;
+	font-size: 30px;
+	font-weight: 100;
+	width: 45px;
+	text-align: center;
+	color: white;
 }
-.icon-fb{
-	height: 20px;
-	width: 14px;
-	padding-right: 5px;
-}
-.icon-youtube{
-	height: 20px;
-	width: 25px;
-	padding-left: 10px;
-}
+.mouth h2{
 
-/*Social End*/
+}
+.mouth h3{
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: 100;
+	width: 40px;
+	text-align: center;
+	color: SteelBlue;
+	margin-top: 0px;
+}
+/*News End*/
 
+/*Font Begin*/
+/*p{
+	margin-top: 10px;
+    font-size: 20px;
+}*/
+/*Font End*/
+
+/*Img Begin*/
+/*.foto{
+	margin-top: 10px;
+}*/
+/*Img End*/
