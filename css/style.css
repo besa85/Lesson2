@@ -45,6 +45,7 @@ header{
 .banner{
 	margin-top: 5px;
 	margin-bottom: 20px;
+	width: 98%;
 }
 /*Banner End*/
 
@@ -63,7 +64,7 @@ header{
 }
 .divider{
 	width: 2px;
-	height: 20px;
+	height: 30px;
 	background-color: blue;
 	margin-left: 5px;
 }

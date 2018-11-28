@@ -1,29 +1,17 @@
-/*Base stules Begin*/
-a{
-	color: inherit; 
-	text-decoration: none;
-}
-.margin-left{
-	margin-left: 10px;
-}
-.inline-element{
-	display: inline-block;
-}
-/*Base stules End*/
-
-
 /*Heder Styles Begin*/
 header{
 	margin-top: 10px;
 }
 .logo{
-	width: 100px;
-	}
+	width: 100px;}
 .logo img{
 	width: 100%;
 }
 .active{
 	color: red;
+}
+nav{
+	margin-left: 20px;
 }
 .navigation-ul{
 	color: blue;
@@ -31,6 +19,7 @@ header{
 	margin: 25px 0px;
 }
 .navigation-ul li{
+	margin-right: 15px;
 	font-size: 20px;
 	list-style: none;
 	transition: .2s,font-size .2s;
@@ -45,11 +34,10 @@ header{
 /*News Begin*/
 .news{
 	margin-top: 30px;
-	/*margin-top: 30px;*/
 }
-.mouth{
+/*.mouth{
 	width: 60%;
-}
+}*/
 .mouth h1{
 	margin: 0px;
 	padding: 0px;
@@ -73,7 +61,31 @@ header{
 	color: SteelBlue;
 	margin-top: 0px;
 }
+.news-desc p{
+	margin: 0px;
+	padding: 0px;
+}
 /*News End*/
+
+/*Banner Begin*/
+.banner{
+	/*margin-top: 5px;
+	margin-bottom: 20px;
+	width: 98%;*/
+}
+.content{
+	content: 100%;
+}
+.news-img{
+	vertical-align: top;
+	width: 30%;
+}
+.news-desc{
+	vertical-align: top;
+	width: 70%;
+}
+/*Banner End*/
+
 /*Social Begin*/
 .social{
 	height: 20px;
@@ -105,5 +117,4 @@ header{
 }
 
 /*Social End*/
-
 
