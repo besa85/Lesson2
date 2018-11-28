@@ -1,0 +1,82 @@
+/*Base stules Begin*/
+a{
+	color: inherit; 
+	text-decoration: none;
+}
+.margin-left{
+	margin-left: 30px;
+}
+.inline-element{
+	display: inline-block;
+}
+/*Base stules End*/
+
+
+/*Heder Styles Begin*/
+header{
+	margin-top: 30px;
+}
+.logo{
+	width: 100px;}
+.logo img{
+	width: 100%;
+}
+.active{
+	color: red;
+}
+.navigation-ul{
+	color: blue;
+	padding-left: 0px;
+	margin: 25px 0px;
+}
+.navigation-ul li{
+	font-size: 20px;
+	list-style: none;
+	transition: .2s,font-size .2s;
+}
+.navigation-ul li:hover{ 
+	cursor: pointer;
+	color: green;
+	font-size: 18px;
+}
+/*Heder Styles End*/
+
+/*Banner Begin*/
+.banner{
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+/*Banner End*/
+
+/*Social Begin*/
+.social{
+	height: 30px;
+	/*background-color: red;	*/
+}
+.social-ul{
+	padding: 0px;
+	margin: 0px;
+}
+.social-ul li{
+	list-style: none;
+	display: inline-block;
+}
+.divider{
+	width: 2px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 5px;
+}
+.icon-fb{
+	height: 30px;
+	width: 14px;
+	padding-right: 5px;
+}
+.icon-youtube{
+	height: 30px;
+	width: 25px;
+	padding-left: 10px;
+}
+
+/*Social End*/
+
