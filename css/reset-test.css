@@ -1,13 +1,17 @@
 header{
+	/*display: inline-block;*/   /*<--რატომ?-->*/
+}
+.logo{
+	display: inline-block;
+}
+nav{
 	display: inline;
 }
 ul {
+	display: inline-block;
     list-style-type: none;
 }
  li a {
     display: block;
     text-decoration: none;
-}
-nav{
-	display: inline;
 }

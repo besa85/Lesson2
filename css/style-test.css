@@ -1,6 +1,7 @@
 /*Logo Begin*/
 header{
 	margin-top: 20px;
+	margin-left: 10px;
 }
 .logo{
 	width: 100px;
@@ -8,11 +9,15 @@ header{
 .logo img{
 	width: 100%;
 }
+nav{
+	margin-left: 15px;
+}
 ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 91%;
 }
 
 li {
@@ -21,11 +26,7 @@ li {
 
 li a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: right;
+    padding: 5px 30px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
